@@ -98,7 +98,7 @@
         result = [self do_open:[prefix stringByAppendingString:@"NOTES"]];
     }
     else if ([key isEqualToString:@"notification_id"]) {
-        result = [self do_open:[prefix stringByAppendingString:@"NOTIFICATIONS_ID"]];
+        result = [self do_open:[prefix stringByAppendingString:@"NOTIFICATIONS_ID&path=com.fizimed.fizi.app"]];
     }
     else if ([key isEqualToString:@"passbook"]) {
         result = [self do_open:[prefix stringByAppendingString:@"PASSBOOK"]];
